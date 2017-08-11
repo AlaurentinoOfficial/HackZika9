@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_baby"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_baby" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_income"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_income" />
+
+    <item
+        android:id="@+id/navigation_account"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_account" />
+
+</menu>
