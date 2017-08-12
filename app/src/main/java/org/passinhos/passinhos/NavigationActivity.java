@@ -12,8 +12,6 @@ import android.widget.TextView;
 
 public class NavigationActivity extends AppCompatActivity {
 
-    FragmentTransaction fragmentTransaction = null;
-
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
 
@@ -26,7 +24,7 @@ public class NavigationActivity extends AppCompatActivity {
                     fragment = new BabyFragment();
                     break;
                 case R.id.navigation_map:
-                    fragment = new BabyFragment();
+                    fragment = new MapsFragment();
                     break;
                 case R.id.navigation_income:
                     fragment = new BabyFragment();
@@ -46,8 +44,6 @@ public class NavigationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
 
-        fragmentTransaction = getSupportFragmentManager().beginTransaction();
-
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
@@ -55,6 +51,7 @@ public class NavigationActivity extends AppCompatActivity {
     }
 
     void pushFragment(Fragment fragment) {
+        FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
         fragmentTransaction.replace(R.id.navigation_toolbar, fragment);
         fragmentTransaction.commit();
     }

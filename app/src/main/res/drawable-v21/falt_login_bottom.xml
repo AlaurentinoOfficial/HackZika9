@@ -9,6 +9,6 @@
                 android:bottomRightRadius="7dp" />
         </shape>
 
-        <ripple android:color="@android:color/darker_gray"/>
+        <ripple android:color="@android:color/white"/>
     </item>
 </selector>

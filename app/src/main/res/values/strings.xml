@@ -1,22 +1,13 @@
 <resources>
     <string name="app_name">Passinhos</string>
 
-    <!-- Strings related to login -->
     <string name="prompt_username">Nome de usuário</string>
     <string name="prompt_cpf">CPF</string>
     <string name="action_sign_in">Logar</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
 
     <string name="title_activity_navgation">Navgation</string>
     <string name="title_baby">Bebê</string>
-    <string name="title_map">Mapa</string>
+    <string name="title_map">Arredores</string>
     <string name="title_income">Renda</string>
     <string name="title_account">Conta</string>
 </resources>
