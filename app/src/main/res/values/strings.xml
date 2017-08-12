@@ -10,4 +10,5 @@
     <string name="title_map">Arredores</string>
     <string name="title_income">Renda</string>
     <string name="title_account">Conta</string>
+    <string name="title_activity_t">Map</string>
 </resources>
