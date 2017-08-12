@@ -50,8 +50,6 @@ public class MapsFragment extends Fragment implements OnMapReadyCallback {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        //String x = timeline.getJSONObject(0).getJSONObject("data").getString("long");
     }
 
     @Override
