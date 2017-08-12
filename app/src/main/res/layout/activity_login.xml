@@ -10,62 +10,69 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:orientation="vertical"
-            android:layout_gravity="center">
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
 
             <!--<android.support.design.widget.TextInputLayout-->
-                <!--android:layout_width="match_parent"-->
-                <!--android:layout_height="wrap_content">-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
 
-                <!--<AutoCompleteTextView-->
-                    <!--android:id="@+id/email"-->
-                    <!--android:layout_width="match_parent"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:hint="@string/prompt_username"-->
-                    <!--android:inputType="textEmailAddress"-->
-                    <!--android:maxLines="1"-->
-                    <!--android:singleLine="true" />-->
+            <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/email"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="@string/prompt_username"-->
+            <!--android:inputType="textEmailAddress"-->
+            <!--android:maxLines="1"-->
+            <!--android:singleLine="true" />-->
 
             <!--</android.support.design.widget.TextInputLayout>-->
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="150dp"
+                android:background="@drawable/logo"
+                android:layout_margin="32dp"
+                android:layout_gravity="center"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
                 android:gravity="center"
-                android:text="@string/app_name"
-                android:textSize="32sp"
-                android:textStyle="bold"
+                android:text="@string/app_name_lowcase"
                 android:textColor="@android:color/white"
-                android:layout_marginBottom="16dp"/>
+                android:textSize="32sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/login_username"
                 android:layout_width="match_parent"
                 android:layout_height="56dp"
+                android:background="@drawable/flat_login_top"
                 android:hint="@string/data_username"
                 android:inputType="text"
-                android:background="@drawable/flat_login_top"
-                android:padding="12dp"
-                android:maxLines="1"/>
+                android:maxLines="1"
+                android:padding="12dp" />
 
             <EditText
                 android:id="@+id/login_cpf"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:background="@drawable/falt_login_bottom"
                 android:hint="@string/data_cpf"
                 android:imeActionId="@+id/login"
                 android:imeOptions="actionUnspecified"
-                android:background="@drawable/falt_login_bottom"
                 android:inputType="number"
-                android:padding="12dp"
-                android:maxLines="1"/>
+                android:maxLines="1"
+                android:padding="12dp" />
 
             <Button
                 android:id="@+id/login_confirm"
@@ -73,10 +80,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
-                android:text="@string/login_confirm"
-                android:textColor="@android:color/white"
                 android:background="@drawable/flat_login"
-                android:backgroundTint="#34ffffff"/>
+                android:backgroundTint="#34ffffff"
+                android:text="@string/login_confirm"
+                android:textColor="@android:color/white" />
 
         </LinearLayout>
     </ScrollView>

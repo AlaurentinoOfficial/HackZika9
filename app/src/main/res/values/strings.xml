@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Passinhos</string>
+    <string name="app_name_lowcase">passinhos</string>
 
     <string name="data_username">Nome de usuário</string>
     <string name="data_name">Nome Completo</string>
@@ -8,6 +9,7 @@
     <string name="data_sydrome">Sindrome congenita</string>
     <string name="data_birthday">Data de nascimento</string>
     <string name="login_confirm">Logar</string>
+
     <string name="save_accounts">Contas salvas com sucesso!</string>
     <string name="resposable_info">Dados do Responsável</string>
     <string name="child_info">Dados da criança</string>
@@ -16,7 +18,7 @@
     <string name="title_baby">Bebê</string>
     <string name="title_map">Arredores</string>
     <string name="title_income">Renda</string>
-    <string name="title_account">Conta</string>
+    <string name="title_account">Contas</string>
     <string name="title_activity_t">Map</string>
 
     <!-- TODO: Remove or change this placeholder text -->
