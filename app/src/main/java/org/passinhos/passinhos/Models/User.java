@@ -23,12 +23,12 @@ public class User {
             User.instance.setUsername("dona.maria");
             User.instance.setFullName("Maria Lúcia da Conceição");
             User.instance.setCPF("123.456.789-01");
-            User.instance.setState("SSA");
+            User.instance.setState("PE");
             User.instance.setBirthday("12323123");
 
             instance.setChildFullname("José Roberto da Silva");
             instance.setChildCPF("123.456.789-01");
-            instance.setChildState("SSA");
+            instance.setChildState("BA");
             instance.setChildBirthday("12323123");
         }
 

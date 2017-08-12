@@ -28,7 +28,7 @@ public class NavigationActivity extends AppCompatActivity {
                     fragment = new IncomeFragment();
                     break;
                 case R.id.navigation_account:
-                    fragment = new BabyFragment();
+                    fragment = new AccountFragment();
                     break;
             }
 
