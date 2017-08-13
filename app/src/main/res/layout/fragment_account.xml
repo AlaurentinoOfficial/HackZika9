@@ -71,54 +71,67 @@
                         android:padding="12dp"
                         android:paddingBottom="12dp">
 
-                        <EditText
-                            android:id="@+id/user"
+                        <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
-                            android:layout_height="48dp"
-                            android:background="@drawable/field"
-                            android:hint="@string/data_username"
-                            android:inputType="text"
-                            android:maxLines="1"
-                            android:padding="8dp"
-                            android:paddingTop="10dp"
-                            android:singleLine="true" />
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:id="@+id/user"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:hint="@string/data_username"
+                                android:inputType="text"
+                                android:maxLines="1"
+                                android:padding="8dp"
+                                android:paddingTop="10dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
 
-                        <EditText
-                            android:id="@+id/name"
+                        <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
-                            android:layout_height="48dp"
-                            android:layout_marginTop="12dp"
-                            android:background="@drawable/field"
-                            android:hint="@string/data_name"
-                            android:inputType="text"
-                            android:maxLines="1"
-                            android:padding="8dp"
-                            android:singleLine="true" />
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:id="@+id/name"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="12dp"
+                                android:hint="@string/data_name"
+                                android:inputType="text"
+                                android:maxLines="1"
+                                android:padding="8dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
 
 
-                        <EditText
-                            android:id="@+id/cpf"
+                        <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
-                            android:layout_height="48dp"
-                            android:layout_marginTop="12dp"
-                            android:background="@drawable/field"
-                            android:hint="@string/data_cpf"
-                            android:inputType="number"
-                            android:maxLines="1"
-                            android:padding="8dp"
-                            android:singleLine="true" />
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:id="@+id/cpf"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="12dp"
+                                android:hint="@string/data_cpf"
+                                android:inputType="number"
+                                android:maxLines="1"
+                                android:padding="8dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
 
-                        <EditText
-                            android:id="@+id/state"
+
+                        <android.support.design.widget.TextInputLayout
                             android:layout_width="match_parent"
-                            android:layout_height="48dp"
-                            android:layout_marginTop="12dp"
-                            android:background="@drawable/field"
-                            android:hint="@string/data_state"
-                            android:inputType="text"
-                            android:maxLines="1"
-                            android:padding="8dp"
-                            android:singleLine="true" />
+                            android:layout_height="wrap_content">
+                            <EditText
+                                android:id="@+id/state"
+                                android:layout_width="match_parent"
+                                android:layout_height="48dp"
+                                android:layout_marginTop="12dp"
+                                android:hint="@string/data_state"
+                                android:inputType="text"
+                                android:maxLines="1"
+                                android:padding="8dp"
+                                android:singleLine="true" />
+                        </android.support.design.widget.TextInputLayout>
 
                         <TextView
                             android:layout_width="match_parent"
@@ -129,9 +142,9 @@
 
                         <DatePicker
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"></DatePicker>
-                    </LinearLayout>
+                            android:layout_height="wrap_content" />
 
+                    </LinearLayout>
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
@@ -186,42 +199,50 @@
                             android:padding="12dp"
                             android:paddingBottom="12dp">
 
-                            <EditText
-                                android:id="@+id/child_username"
+                            <android.support.design.widget.TextInputLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="12dp"
-                                android:background="@drawable/field"
-                                android:hint="@string/data_name"
-                                android:inputType="text"
-                                android:maxLines="1"
-                                android:padding="8dp"
-                                android:singleLine="true" />
+                                android:layout_height="wrap_content">
+                                <EditText
+                                    android:id="@+id/child_username"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:hint="@string/data_name"
+                                    android:inputType="text"
+                                    android:maxLines="1"
+                                    android:padding="8dp"
+                                    android:singleLine="true" />
+                            </android.support.design.widget.TextInputLayout>
 
-
+                            <android.support.design.widget.TextInputLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
                             <EditText
                                 android:id="@+id/child_cpf"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="12dp"
-                                android:background="@drawable/field"
                                 android:hint="@string/data_cpf"
                                 android:inputType="number"
                                 android:maxLines="1"
                                 android:padding="8dp"
                                 android:singleLine="true" />
+                            </android.support.design.widget.TextInputLayout>
 
-                            <EditText
-                                android:id="@+id/child_state"
+                            <android.support.design.widget.TextInputLayout
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="12dp"
-                                android:background="@drawable/field"
-                                android:hint="@string/data_state"
-                                android:inputType="text"
-                                android:maxLines="1"
-                                android:padding="8dp"
-                                android:singleLine="true" />
+                                android:layout_height="wrap_content">
+                                <EditText
+                                    android:id="@+id/child_state"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="12dp"
+                                    android:hint="@string/data_state"
+                                    android:inputType="text"
+                                    android:maxLines="1"
+                                    android:padding="8dp"
+                                    android:singleLine="true" />
+                            </android.support.design.widget.TextInputLayout>
 
                             <TextView
                                 android:layout_width="match_parent"
